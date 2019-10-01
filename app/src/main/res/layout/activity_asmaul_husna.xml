@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_asmaul_husna"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg"
+    tools:context="com.rafli.yasin.AsmaulHusna">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+
+            android:id="@+id/backasma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+        <TextView
+
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Asmaul Husna"
+            android:textSize="20dp"
+            android:id="@+id/textView"
+            />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="7dp"
+            android:maxWidth="7dp"
+            android:src="@drawable/ic_play_arrow_black_24dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/playasma"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stopasma"
+            android:maxHeight="7dp"
+            android:maxWidth="7dp"
+
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_stop_black_24dp" />
+
+
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#70f6fa"
+        />
+    <ScrollView
+        android:background="@mipmap/bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="
+
+
+
+1.Ar Rahman
+\n
+الرحمن
+\n
+Yang Maha Pengasih
+\n
+\n
+2.Ar Rahiim
+\n
+الرحيم
+\n
+Yang Maha Penyayang
+\n
+\n
+3.Al Malik
+\n
+الملك
+\n
+Yang Maha Merajai/Memerintah
+\n
+\n
+4.Al Quddus
+\n
+القدوس
+\n
+Yang Maha Suci
+\n
+\n
+5.As Salaam
+\n
+السلام
+\n
+Yang Maha Memberi Kesejahteraan
+\n
+\n
+6.Al Mu`min
+\n
+المؤمن
+\n
+Yang Maha Memberi Keamanan
+\n
+\n
+7.Al Muhaimin
+\n
+المهيمن
+\n
+Yang Maha Pemelihara
+\n
+\n
+8.Al `Aziiz
+\n
+العزيز
+\n
+Yang Maha Perkasa
+\n
+\n
+9.Al Jabbar
+\n
+الجبار
+\n
+Yang Memiliki Mutlak Kegagahan
+\n
+\n
+10.Al Mutakabbir
+\n
+المتكبر
+\n
+Yang Maha Megah, Yang Memiliki Kebesaran
+\n
+\n
+11.Al Khaliq
+\n
+الخالق
+\n
+Yang Maha Pencipta
+\n
+\n
+12.Al Baari`
+\n
+البارئ
+\n
+Yang Maha Melepaskan (Membuat, Membentuk, Menyeimbangkan)
+\n
+\n
+13.Al Mushawwir
+\n
+المصور
+\n
+Yang Maha Membentuk Rupa (makhluknya)
+\n
+\n
+14.Al Ghaffaar
+\n
+الغفار
+\n
+Yang Maha Pengampun
+\n
+\n
+15.Al Qahhaar
+\n
+القهار
+\n
+Yang Maha Menundukan
+\n
+\n
+16.Al Wahhaab
+\n
+الوهاب
+\n
+Yang Maha Pemberi Karunia
+\n
+\n
+17.Ar Razzaaq
+\n
+الرزاق
+\n
+Yang Maha Pemberi Rezeki
+\n
+\n
+18.Al Fattaah
+\n
+الفتاح
+\n
+Yang Maha Pembuka Rahmat
+\n
+\n
+19.Al `Aliim
+\n
+العليم
+\n
+Yang Maha Mengetahui (Memiliki Ilmu)
+\n
+\n
+20.Al Qaabidh
+\n
+القابض
+\n
+Yang Maha Menyempitkan (makhluknya)
+\n
+\n
+21.Al Baasith
+\n
+الباسط
+\n
+Yang Maha Melapangkan (makhluknya)
+\n
+\n
+22.Al Khaafidh
+\n
+الخافض
+\n
+Yang Maha Merendahkan (makhluknya)
+\n
+\n
+23.Ar Raafi`
+\n
+الرافع
+\n
+Yang Maha Meninggikan (makhluknya)
+\n
+\n
+24.Al Mu`izz
+\n
+المعز
+\n
+Yang Maha Memuliakan (makhluknya)
+\n
+\n
+25.Al Mudzil
+\n
+المذل
+\n
+Yang Maha Menghinakan (makhluknya)
+\n
+\n
+26.Al Samii`
+\n
+السميع
+\n
+Yang Maha Mendengar
+\n
+\n
+27.Al Bashiir
+\n
+البصير
+\n
+Yang Maha Melihat
+\n
+\n
+28.Al Hakam
+\n
+الحكم
+\n
+Yang Maha Menetapkan
+\n
+\n
+29.Al `Adl
+\n
+العدل
+\n
+Yang Maha Adil
+\n
+\n
+30.Al Lathiif
+\n
+اللطيف
+\n
+Yang Maha Lembut
+\n
+\n
+31.Al Khabiir
+\n
+الخبير
+\n
+Yang Maha Mengenal
+\n
+\n
+32.Al Haliim
+\n
+الحليم
+\n
+Yang Maha Penyantun
+\n
+\n
+33.Al `Azhiim
+\n
+العظيم
+\n
+Yang Maha Agung
+\n
+\n
+34.Al Ghafuur
+\n
+الغفور
+\n
+Yang Maha Pengampun
+\n
+\n
+35.As Syakuur
+\n
+الشكور
+\n
+Yang Maha Pembalas Budi (Menghargai)
+\n
+\n
+36.Al `Aliy
+\n
+العلى
+\n
+Yang Maha Tinggi
+\n
+\n
+37.Al Kabiir
+\n
+الكبير
+\n
+Yang Maha Besar
+\n
+\n
+38.Al Hafizh
+\n
+الحفيظ
+\n
+Yang Maha Memelihara
+\n
+\n
+39.Al Muqiit
+\n
+المقيت
+\n
+Yang Maha Pemberi Kecukupan
+\n
+\n
+40.Al Hasiib
+\n
+الحسيب
+\n
+Yang Maha Membuat Perhitungan
+\n
+\n
+41.Al Jaliil
+\n
+الجليل
+\n
+Yang Maha Mulia
+\n
+\n
+42.Al Kariim
+\n
+الكريم
+\n
+Yang Maha Mulia
+\n
+\n
+43.Ar Raqiib
+\n
+الرقيب
+\n
+Yang Maha Mengawasi
+\n
+\n
+44.Al Mujiib
+\n
+المجيب
+\n
+Yang Maha Mengabulkan
+\n
+\n
+45.Al Waasi`
+\n
+الواسع
+\n
+Yang Maha Luas
+\n
+\n
+46.Al Hakiim
+\n
+الحكيم
+\n
+Yang Maha Maka Bijaksana
+\n
+\n
+47.Al Waduud
+\n
+الودود
+\n
+Yang Maha Mengasihi
+\n
+\n
+48.Al Majiid
+\n
+المجيد
+\n
+Yang Maha Mulia
+\n
+\n
+49.Al Baa`its
+\n
+الباعث
+\n
+Yang Maha Membangkitkan
+\n
+\n
+50.As Syahiid
+\n
+الشهيد
+\n
+Yang Maha Menyaksikan
+\n
+\n
+51.Al Haqq
+\n
+الحق
+\n
+Yang Maha Benar
+\n
+\n
+52.Al Wakiil
+\n
+الوكيل
+\n
+Yang Maha Memelihara
+\n
+\n
+53.Al Qawiyyu
+\n
+القوى
+\n
+Yang Maha Kuat
+\n
+\n
+54.Al Matiin
+\n
+المتين
+\n
+Yang Maha Kokoh
+\n
+\n
+55.Al Waliyy
+\n
+الولى
+\n
+Yang Maha Melindungi
+\n
+\n
+56.Al Hamiid
+\n
+الحميد
+\n
+Yang Maha Terpuji
+\n
+\n
+57.Al Muhshii
+\n
+المحصى
+\n
+Yang Maha Mengalkulasi (Menghitung Segala Sesuatu)
+\n
+\n
+58.Al Mubdi`
+\n
+المبدئ
+\n
+Yang Maha Memulai
+\n
+\n
+59.Al Mu`iid
+\n
+المعيد
+\n
+Yang Maha Mengembalikan Kehidupan
+\n
+\n
+60.Al Muhyii
+\n
+المحيى
+\n
+Yang Maha Menghidupkan
+\n
+\n
+61.Al Mumiitu
+\n
+المميت
+\n
+Yang Maha Mematikan
+\n
+\n
+62.Al Hayyu
+\n
+الحي
+\n
+Yang Maha Hidup
+\n
+\n
+63.Al Qayyuum
+\n
+القيوم
+\n
+Yang Maha Mandiri
+\n
+\n
+64.Al Waajid
+\n
+الواجد
+\n
+Yang Maha Penemu
+\n
+\n
+65.Al Maajid
+\n
+الماجد
+\n
+Yang Maha Mulia
+\n
+\n
+66.Al Wahiid
+\n
+الواحد
+\n
+Yang Maha Tunggal
+\n
+\n
+67.Al Ahad
+\n
+الاحد
+\n
+Yang Maha Esa
+\n
+\n
+68.As Shamad
+\n
+الصمد
+\n
+Yang Maha Dibutuhkan, Tempat Meminta
+\n
+\n
+69.Al Qaadir
+\n
+القادر
+\n
+Yang Maha Menentukan, Maha Menyeimbangkan
+\n
+\n
+70.Al Muqtadir
+\n
+المقتدر
+\n
+Yang Maha Berkuasa
+\n
+\n
+71.Al Muqaddim
+\n
+المقدم
+\n
+Yang Maha Mendahulukan
+\n
+\n
+72.Al Mu`akkhir
+\n
+المؤخر
+\n
+Yang Maha Mengakhirkan
+\n
+\n
+73.Al Awwal
+\n
+الأول
+\n
+Yang Maha Awal
+\n
+\n
+74.Al Aakhir
+\n
+الأخر
+\n
+Yang Maha Akhir
+\n
+\n
+75.Az Zhaahir
+\n
+الظاهر
+\n
+Yang Maha Nyata
+\n
+\n
+76.Al Baathin
+\n
+الباطن
+\n
+Yang Maha Ghaib
+\n
+\n
+77.Al Waali
+\n
+الوالي
+\n
+Yang Maha Memerintah
+\n
+\n
+78.Al Muta`aalii
+\n
+المتعالي
+\n
+Yang Maha Tinggi
+\n
+\n
+79.Al Barru
+\n
+البر
+\n
+Yang Maha Penderma (Maha Pemberi Kebajikan)
+\n
+\n
+80.At Tawwaab
+\n
+التواب
+\n
+Yang Maha Penerima Tobat
+\n
+\n
+81.Al Muntaqim
+\n
+المنتقم
+\n
+Yang Maha Pemberi Balasan
+\n
+\n
+82.Al Afuww
+\n
+العفو
+\n
+Yang Maha Pemaaf
+\n
+\n
+83.Ar Ra`uuf
+\n
+الرؤوف
+\n
+Yang Maha Pengasuh
+\n
+\n
+84.Malikul Mulk
+\n
+مالك الملك
+\n
+Yang Maha Penguasa Kerajaan (Semesta)
+\n
+\n
+85.Dzul Jalaali Wal Ikraam
+\n
+ذو الجلال و الإكرام
+\n
+Yang Maha Pemilik Kebesaran dan Kemuliaan
+\n
+\n
+86.Al Muqsith
+\n
+المقسط
+\n
+Yang Maha Pemberi Keadilan
+\n
+\n
+87.Al Jamii`
+\n
+الجامع
+\n
+Yang Maha Mengumpulkan
+\n
+\n
+88.Al Ghaniyy
+\n
+الغنى
+\n
+Yang Maha Kaya
+\n
+\n
+89.Al Mughnii
+\n
+المغنى
+\n
+Yang Maha Pemberi Kekayaan
+\n
+\n
+90.Al Maani
+\n
+المانع
+\n
+Yang Maha Mencegah
+\n
+\n
+91.Ad Dhaar
+\n
+الضار
+\n
+Yang Maha Penimpa Kemudharatan
+\n
+\n
+92.An Nafii`
+\n
+النافع
+\n
+Yang Maha Memberi Manfaat
+\n
+\n
+93.An Nuur
+\n
+النور
+\n
+Yang Maha Bercahaya (Menerangi, Memberi Cahaya)
+\n
+\n
+94.Al Haadii
+\n
+الهادئ
+\n
+Yang Maha Pemberi Petunjuk
+\n
+\n
+95.Al Badii'
+\n
+البديع
+\n
+Yang Maha Pencipta Yang Tiada Bandingannya
+\n
+\n
+96.Al Baaqii
+\n
+الباقي
+\n
+Yang Maha Kekal
+\n
+\n
+97.Al Waarits
+\n
+الوارث
+\n
+Yang Maha Pewaris
+\n
+\n
+98.Ar Rasyiid
+\n
+الرشيد
+\n
+Yang Maha Pandai
+\n
+\n
+99.As Shabuur
+\n
+الصبور
+\n
+Yang Maha Sabar"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
