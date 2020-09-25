@@ -4,7 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg"
+    android:background="#ffffff"
     tools:context="com.rafli.yasin.MainActivity">
 
     <ScrollView
@@ -24,6 +24,7 @@
                 android:layout_marginTop="73dp" />
 
             <android.support.design.widget.FloatingActionButton
+                android:layout_margin="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/ketentang"
@@ -38,8 +39,7 @@
                 android:orientation="horizontal"
                 android:layout_below="@+id/allah"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="72dp"
+                android:layout_alignParentStart="true"≈
                 android:id="@+id/linearLayout">
                 <ImageView
                     android:layout_width="match_parent"
@@ -56,7 +56,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="25dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
