@@ -24,6 +24,7 @@
         </activity>
         <activity android:name=".Yasin" />
         <activity android:name=".Tahlil" />
+        <activity android:name=".FAQActivty" />
         <activity android:name=".AsmaulHusna" />
 
         <activity android:name=".Istigosah"></activity>
