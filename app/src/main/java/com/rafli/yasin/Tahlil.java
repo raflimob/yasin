@@ -8,18 +8,19 @@ import android.widget.ImageView;
 
 public class Tahlil extends AppCompatActivity {
 
-    ImageView b;
+    ImageView imgBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tahlil);
 
-        b=(ImageView)findViewById(R.id.backtahlil);
-        b.setOnClickListener(new View.OnClickListener() {
+        imgBack = findViewById(R.id.backtahlil);
+        
+        imgBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Tahlil.this,MainActivity.class));
+                this.finish();
             }
         });
     }
